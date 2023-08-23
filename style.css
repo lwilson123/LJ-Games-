@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+color: #046402;
+text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+
+  
+}
+
+html { 
+  background: repeat url("https://www.bing.com/th/id/OGC.e6369d788b6e04fc81e38968bf7e6d95?pid=1.7&rurl=https%3a%2f%2fc.tenor.com%2fIvyuPtEfzhoAAAAC%2fmatrix.gif&ehk=R9FbSC8jM44PB7%2bhyDEq3GnSVeoU34iRd7vCFBM0TsU%3d");
+     }
+
+  .image-button {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s, filter 0.2s;
+        }
+
+        /* Style for the image inside the button */
+        .image-button img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Initial state - no hover */
+        .image-button:hover {
+            transform: scale(1.1); /* Grow by 10% */
+        }
+
+        /* Hover state - darken */
+        .image-button:hover img {
+            filter: brightness(70%); /* Darken the image */
+        }
